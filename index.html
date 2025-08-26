@@ -263,62 +263,92 @@
           </div>
         </div>
         
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">
-              A Generic Unsupervised Approach for Disentangling Semantic Content from Parameterized Transformations.
-            </h3>
-            <div class="subheading mb-3">Skills: Unsupervised Learning, Representation Learning, Inverse Problems.</div>
-            <p>In many real-life image analysis applications, particularly in biomedical research domains, the objects
-              of interest undergo multiple transformations that alters their visual properties while keeping the
-              semantic content unchanged. Disentangling images into semantic content factors and transformations can
-              provide significant benefits into many domain-specific image analysis tasks. To this end, we propose a
-              generic unsupervised framework, Harmony, that simultaneously and explicitly disentangles semantic content
-              from multiple parameterized transformations. Harmony leverages a simple cross-contrastive learning
-              framework with multiple explicitly parameterized latent representations to disentangle content from
-              transformations. To demonstrate the efficacy of Harmony, we apply it to disentangle image semantic content
-              from several parameterized transformations (rotation, translation, scaling, and contrast). Harmony
-              achieves significantly improved disentanglement over the baseline models on several image datasets of
-              diverse domains. With such disentanglement, Harmony is demonstrated to incentivize bioimage analysis
-              research by modeling structural heterogeneity of macromolecules from cryo-ET images and learning
-              transformation-invariant representations of protein particles from single-particle cryo-EM images. Therefore, Harmony is generalizable to many other imaging domains
-              and can potentially be extended to domains beyond imaging as well.
-            </p>
-            <div class="subheading mb-3">Project is available <a href="https://github.com/xulabs/aitom/tree/master/aitom/classify/deep/unsupervised/disentangled_representation/harmony"
-              target="_blank">here.</a></div>
-            <div class="col-lg-4 col-md-4 col-sm-12">
-              <img class="img-fluid" src="img/harmony_method.jpg" alt="">
-            </div>
-          </div>
+        <!-- Harmony Project -->
+<div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+  <div class="row w-100">
+    <!-- Left: Text -->
+    <div class="col-lg-8 col-md-8 col-sm-12">
+      <div class="resume-content">
+        <h3 class="mb-0">
+          A Generic Unsupervised Approach for Disentangling Semantic Content from Parameterized Transformations.
+        </h3>
+        <div class="subheading mb-3">
+          Skills: Unsupervised Learning, Representation Learning, Inverse Problems.
         </div>
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">
-              Unsupervised Identification of Protein Compositions and Conformations via Implicit Content-Transformation
-              Disentanglement</h3>
-            <div class="subheading mb-3">Skills: Contrastive Learning, Representation Learning, Shape Analysis, Protein
-              Biology.</div>
-            <p>Identifying different protein compositions and conformations from microscopic images of protein
-              mixtures is a challenging open problem. We address this through disentangled representation learning,
-              where separating protein compositions and conformations in an intermediate latent space enables accurate
-              identification. By modeling compositions and conformations as content and transformation, the task can
-              be reduced to disentangling content and transformation. The existing disentangling methods require an
-              explicit parametric form for the transformation, which is unavailable for conformation, making these
-              methods unsuitable. To overcome this limitation, we propose DualContrast, a novel contrastive
-              learning-based method that implicitly parameterizes and disentangles both transformation and content.
-              DualContrast achieves this by generating positive and negative pairs for content and transformation in
-              both data and latent spaces. We demonstrate that existing self-supervised approaches fail under similar
-              implicit parameterization, underscoring the necessity of our method. Through extensive experiments on 3D
-              microscopic images of protein mixtures and additional shape-focused datasets beyond microscopy, we
-              validate our claims and demonstrate the first in-principle fully unsupervised identification of
-              different protein compositions and conformations in 3D microscopic images.</p>
-            <div class="subheading mb-3">Project is available <a href="https://github.com/DuranRafid/DualContrast"
-                target="_blank">here.</a></div>
-            <div class="col-lg-4 col-md-4 col-sm-12">
-              <img class="img-fluid" src="img/dualcontrast_method.png" alt="">
-            </div>
-          </div>
+        <p>
+          In many real-life image analysis applications, particularly in biomedical research domains, the objects
+          of interest undergo multiple transformations that alter their visual properties while keeping the
+          semantic content unchanged. Disentangling images into semantic content factors and transformations can
+          provide significant benefits for many domain-specific image analysis tasks. To this end, we propose a
+          generic unsupervised framework, Harmony, that simultaneously and explicitly disentangles semantic content
+          from multiple parameterized transformations. Harmony leverages a simple cross-contrastive learning
+          framework with multiple explicitly parameterized latent representations to disentangle content from
+          transformations. To demonstrate the efficacy of Harmony, we apply it to disentangle image semantic content
+          from several parameterized transformations (rotation, translation, scaling, and contrast). Harmony
+          achieves significantly improved disentanglement over the baseline models on several image datasets of
+          diverse domains. With such disentanglement, Harmony is demonstrated to incentivize bioimage analysis
+          research by modeling structural heterogeneity of macromolecules from cryo-ET images and learning
+          transformation-invariant representations of protein particles from single-particle cryo-EM images.
+          Therefore, Harmony is generalizable to many other imaging domains
+          and can potentially be extended to domains beyond imaging as well.
+        </p>
+        <div class="subheading mb-3">
+          Project is available 
+          <a href="https://github.com/xulabs/aitom/tree/master/aitom/classify/deep/unsupervised/disentangled_representation/harmony" target="_blank">here.</a>
         </div>
+      </div>
+    </div>
+
+    <!-- Right: Image -->
+    <div class="col-lg-4 col-md-4 col-sm-12 d-flex align-items-center">
+      <img class="img-fluid" src="img/harmony_method.jpg" alt="">
+    </div>
+  </div>
+</div>
+
+<!-- DualContrast Project -->
+<div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+  <div class="row w-100">
+    <!-- Left: Text -->
+    <div class="col-lg-8 col-md-8 col-sm-12">
+      <div class="resume-content">
+        <h3 class="mb-0">
+          Unsupervised Identification of Protein Compositions and Conformations via Implicit Content-Transformation
+          Disentanglement
+        </h3>
+        <div class="subheading mb-3">
+          Skills: Contrastive Learning, Representation Learning, Shape Analysis, Protein Biology.
+        </div>
+        <p>
+          Identifying different protein compositions and conformations from microscopic images of protein
+          mixtures is a challenging open problem. We address this through disentangled representation learning,
+          where separating protein compositions and conformations in an intermediate latent space enables accurate
+          identification. By modeling compositions and conformations as content and transformation, the task can
+          be reduced to disentangling content and transformation. The existing disentangling methods require an
+          explicit parametric form for the transformation, which is unavailable for conformation, making these
+          methods unsuitable. To overcome this limitation, we propose DualContrast, a novel contrastive
+          learning-based method that implicitly parameterizes and disentangles both transformation and content.
+          DualContrast achieves this by generating positive and negative pairs for content and transformation in
+          both data and latent spaces. We demonstrate that existing self-supervised approaches fail under similar
+          implicit parameterization, underscoring the necessity of our method. Through extensive experiments on 3D
+          microscopic images of protein mixtures and additional shape-focused datasets beyond microscopy, we
+          validate our claims and demonstrate the first in-principle fully unsupervised identification of
+          different protein compositions and conformations in 3D microscopic images.
+        </p>
+        <div class="subheading mb-3">
+          Project is available 
+          <a href="https://github.com/DuranRafid/DualContrast" target="_blank">here.</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right: Image -->
+    <div class="col-lg-4 col-md-4 col-sm-12 d-flex align-items-center">
+      <img class="img-fluid" src="img/dualcontrast_method.png" alt="">
+    </div>
+  </div>
+</div>
+
     </section>
 
 
